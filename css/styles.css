@@ -65,10 +65,17 @@ h1{
 
 #container {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 aside {
     padding-top: 114px;
+    width: 15%;
+}
+
+#principal {
+    width: 85%;
 }
 
 #cont_prueba {
@@ -81,10 +88,14 @@ aside {
     padding: 20px 0;
     font-weight: 700;
     font-size: 24px;
+    width: 100%;
 }
 
 #info_prueba{
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+
 }
 
 #info_prueba h3{
@@ -92,3 +103,22 @@ aside {
     font-size: 14px;
 }
 
+#info_prueba h3:nth-child(4){
+    width: 660px;
+}
+
+#info_prueba h3 span {
+    font-weight: 500;
+}
+
+.btn_primary{
+    background: #203855;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 11px;
+    color: white;
+}
+
+.btn_primary img {
+    margin-right: 5px;
+}
