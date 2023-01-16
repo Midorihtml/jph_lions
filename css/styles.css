@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     border: 0;
     box-sizing: border-box;
@@ -10,12 +10,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-header{
+header {
     background: #EEEEEE;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0 30px;
+    padding: 0 30px;
 }
 
 header nav ul {
@@ -45,6 +45,7 @@ header nav ul li {
     padding: 14px 0 5px 0;
 }
 
+
 #cont_tit_princ {
     margin-bottom: 10px;
 }
@@ -71,6 +72,15 @@ aside {
     padding-top: 114px;
 }
 
+
+#recruiting_table {
+    display: flex;
+}
+
+#column-content {
+    display: flex;
+    flex-direction: column;
+}
 #cont_prueba {
     background: #F3F3F3;
     padding: 20px;
@@ -91,4 +101,5 @@ aside {
     font-weight: 700;
     font-size: 14px;
 }
+
 
