@@ -45,6 +45,10 @@ header nav ul li {
     padding: 14px 0 5px 0;
 }
 
+#cont_tit_princ {
+    margin-bottom: 10px;
+}
+
 #cont_tit_princ p{
     font-size: 9px;
     color: #2B3F6C;
@@ -54,6 +58,11 @@ header nav ul li {
     margin-right: 15px;
 }
 
+h1{
+    font-weight: 700;
+    font-size: 32px;
+}
+
 #container {
     display: flex;
 }
@@ -61,3 +70,25 @@ header nav ul li {
 aside {
     padding-top: 114px;
 }
+
+#cont_prueba {
+    background: #F3F3F3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#cont_prueba h2 {
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#info_prueba{
+    display: flex;
+}
+
+#info_prueba h3{
+    font-weight: 700;
+    font-size: 14px;
+}
+
