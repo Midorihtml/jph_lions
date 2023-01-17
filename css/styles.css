@@ -47,9 +47,8 @@ header nav ul li {
 
 #tit_principal {
     display: flex;
-    padding: 14px 0 5px 0;
+    padding: 14px 0 5px 20px;
 }
-
 
 #cont_tit_princ {
     margin-bottom: 10px;
@@ -73,11 +72,17 @@ h1 {
     font-size: 32px;
 }
 
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 #container {
     display: flex;
     justify-content: center;
-    width: 100%;
-    gap: 40px;
+    width: 95%;
+    /* gap: 40px; */
 }
 
 aside {
@@ -86,6 +91,7 @@ aside {
     font-size: 14px;
     line-height: 17px;
     padding-top: 114px;
+    width: 15%;
 }
 
 aside ul {
@@ -191,10 +197,10 @@ aside li {
     background-color: var(--bg-gray);
     display: flex;
     align-items: center;
-    width: fit-content;
     padding: 8px;
     border-radius: 4px;
-    margin: 17px;
+    width: 30px;
+    height: 30px;
 }
 
 /* db icon */
