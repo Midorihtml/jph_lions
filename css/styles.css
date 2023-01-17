@@ -172,7 +172,7 @@ aside li {
 }
 
 #cont_prueba h2 {
-    padding: 20px 0;
+    padding: 20px;
     font-weight: 700;
     font-size: 24px;
 }
@@ -366,7 +366,9 @@ h4 {
     padding: 5px 5px;
 }
 
-.btn_blue img, .simple_blue, .simple_grey {
+.btn_blue img,
+.simple_blue,
+.simple_grey {
     width: 14px;
 }
 
@@ -437,7 +439,8 @@ h4 {
     align-items: center;
 }
 
-#cont_actions div:nth-child(1), #actions{
+#cont_actions div:nth-child(1),
+#actions {
     padding: 20px 0px !important;
 }
 
@@ -450,7 +453,7 @@ h4 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-#cont_actions div{
+#cont_actions div {
     padding: 20px 22px;
     gap: 12px;
 }
