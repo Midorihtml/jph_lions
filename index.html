@@ -56,7 +56,7 @@
                     <h3>Dom. exp.:<span> Avenida Constituyentes 4000, General Pacheco Argentina PROVINCIA <br>Provincia
                             de
                             Buenos Aires.</span></h3>
-                    <button class="btn_primary"><img src="statics/img/solicitud.svg" alt="Solicitud" /> Detalles de la
+                    <button class="btn_primary btn_width"><img src="statics/img/solicitud.svg" alt="Solicitud" /> Detalles de la
                         Solicitud</button>
                 </div>
                 <div id="orden" class="border_bt pd_t">
@@ -73,32 +73,30 @@
                     <div id="cont_btn">
                         <button class="btn_blue"><img src="statics/img/multiposting.svg" alt="Multi posting" />Multi
                             Posting</button>
-                        <button class="btn_blue"><img src="statics/img/modificar.svg"
+                        <button class="btn_blue btn_width"><img src="statics/img/modificar.svg"
                                 alt="Modificicar Solicitud" />Modificicar Solicitud</button>
                     </div>
                 </div>
-            </div>
-            <div>
-                <div>
-                    <div>
-                        <button><img src="" alt="" />Chat</button>
-                        <button><img src="" alt="" />Historial</button>
-                        <button><img src="" alt="" />Archivos Adjuntos</button>
+                <div class="flex" id="cont_actions">
+                    <div class="flex gap_divs">
+                        <button class="btn_blue"><img src="statics/img/chat.svg" alt="Chat" />Chat</button>
+                        <button class="btn_blue"><img src="statics/img/historial.svg" alt="Historial" />Historial</button>
+                        <button class="btn_blue"><img src="statics/img/archivos.svg" alt="Archivos Adjuntos" />Archivos Adjuntos</button>
                     </div>
-                    <div>
-                        <button><img src="" alt="add" /></button>
-                        <form>
-                            <input type="text" />
-                            <button type="submit"><img src="" alt="search" /></button>
+                    <div class="flex gap_divs">
+                        <button class="simple_blue"><img src="statics/img/add.svg" alt="add" /></button>
+                        <form class="flex">
+                            <input type="text" id="search" placeholder="Buscar..."/>
+                            <button type="submit" class="simple_blue"><img src="statics/img/search.svg" alt="search" /></button>
                         </form>
-                        <button><img src="" alt="refresh" /></button>
-                        <button><img src="" alt="delete" /></button>
+                        <button class="simple_blue"><img src="statics/img/refresh.svg" alt="refresh" /></button>
+                        <button id="delete"><img src="statics/img/delete.svg" alt="delete" /></button>
                     </div>
-                    <div>
-                        <button><img src="" alt="copy" />Chat</button>
-                        <button><img src="" alt="clone" />Historial</button>
-                        <button><img src="" alt="send" />Archivos Adjuntos</button>
-                        <button>Cerrar solicitud</button>
+                    <div class="flex gap_divs" id="actions">
+                        <button class="simple_grey"><img src="statics/img/copy.svg" alt="copy" /></button>
+                        <button class="simple_grey"><img src="statics/img/clone.svg" alt="clone" /></button>
+                        <button class="simple_grey"><img src="statics/img/enviar.png" alt="send" /></button>
+                        <button class="btn_cancel btn_width">Cerrar solicitud</button>
                     </div>
                 </div>
             </div>
