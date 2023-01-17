@@ -117,8 +117,12 @@ aside {
     font-weight: 700;
     font-size: 11px;
     color: white;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    gap: 2px;
+    place-items: center;
 }
 
 .btn_primary img {
-    margin-right: 5px;
+    /* margin-right: 5px; */
 }
