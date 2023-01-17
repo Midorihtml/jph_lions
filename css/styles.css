@@ -75,13 +75,35 @@ h1 {
 
 #container {
     display: flex;
+    justify-content: center;
     width: 100%;
-    justify-content: space-between;
+    gap: 40px;
 }
 
 aside {
+    color: #203855;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
     padding-top: 114px;
-    width: 15%;
+}
+
+aside ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+}
+
+aside li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.active {
+    color: var(--bg-orange);
 }
 
 #principal {
@@ -150,7 +172,7 @@ aside {
 }
 
 #cont_prueba h2 {
-    padding: 20px 0;
+    padding: 20px;
     font-weight: 700;
     font-size: 24px;
 }
@@ -164,9 +186,27 @@ aside {
     font-size: 14px;
 }
 
+/* db icon */
+.bg-database {
+    background-color: var(--bg-gray);
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 17px;
+}
+
+/* db icon */
+
 /* recruiting table */
 #recruiting_table {
     display: flex;
+    background-color: #EEEEEE;
+    border-radius: 8px;
+    height: 100%;
+    padding: 12px;
+    justify-content: space-between;
 }
 
 
@@ -180,14 +220,11 @@ aside {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding: 0 12px;
+    gap: 10px;
 }
 
-
-.column-filter {
-    align-self: flex-end;
-}
-
-/* .column-filter {} */
+.column-filter {}
 
 .container-card {
     display: flex;
@@ -270,12 +307,12 @@ aside {
     padding-bottom: 11px;
 }
 
-#orden{
+#orden {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
 
-#orden div:nth-child(1){
+#orden div:nth-child(1) {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -291,23 +328,23 @@ aside {
     justify-content: center;
 }
 
-.pd_t{
+.pd_t {
     padding-top: 13px;
 }
 
-#cont_btn{
-    display:flex;
-    justify-content: flex-end; 
+#cont_btn {
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
     gap: 5px;
 }
 
-h4{
+h4 {
     font-weight: 500;
     font-size: 14px;
 }
 
-.btn_secundary{
+.btn_secundary {
     background: #CE9A60;
     border: 1px solid #CE9A60;
     border-radius: 4px;
@@ -329,7 +366,9 @@ h4{
     padding: 5px 5px;
 }
 
-.btn_blue img, .simple_blue, .simple_grey {
+.btn_blue img,
+.simple_blue,
+.simple_grey {
     width: 14px;
 }
 
@@ -400,7 +439,8 @@ h4{
     align-items: center;
 }
 
-#cont_actions div:nth-child(1), #actions{
+#cont_actions div:nth-child(1),
+#actions {
     padding: 20px 0px !important;
 }
 
@@ -413,7 +453,7 @@ h4{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-#cont_actions div{
+#cont_actions div {
     padding: 20px 22px;
     gap: 12px;
 }
