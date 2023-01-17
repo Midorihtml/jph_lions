@@ -214,6 +214,7 @@ aside li {
 #column-content {
     display: flex;
     flex-direction: column;
+    gap: 3px;
 }
 
 .column-tittle {
@@ -221,10 +222,9 @@ aside li {
     justify-content: flex-start;
     align-items: center;
     padding: 0 12px;
+    margin-bottom: 12px;
     gap: 10px;
 }
-
-.column-filter {}
 
 .container-card {
     display: flex;
@@ -235,6 +235,7 @@ aside li {
     Height: 52px;
     border-radius: 10px;
     align-items: center;
+    background-color: #FAFAFA;
 }
 
 .user-content {
@@ -273,6 +274,9 @@ aside li {
     background-color: var(--bg-gray);
     border-radius: 4px;
     width: 130px;
+    color: #ffffff;
+    font-size: 11px;
+    line-height: 14px;
 }
 
 .date {
