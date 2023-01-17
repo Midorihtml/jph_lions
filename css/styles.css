@@ -72,16 +72,16 @@ h1 {
     font-size: 32px;
 }
 
-main{
+main {
     width: 100%;
     display: flex;
-    justify-content: center;
+    padding: 0 23px;
 }
 
 #container {
     display: flex;
-    justify-content: center;
-    width: 95%;
+    justify-content: space-between;
+    width: 100%;
     /* gap: 40px; */
 }
 
@@ -91,7 +91,7 @@ aside {
     font-size: 14px;
     line-height: 17px;
     padding-top: 114px;
-    width: 15%;
+    width: 10%;
 }
 
 aside ul {
@@ -113,7 +113,7 @@ aside li {
 }
 
 #principal {
-    width: 85%;
+    width: 90%;
 }
 
 #cont_prueba {
@@ -164,10 +164,6 @@ aside li {
 }
 
 .btn_primary img {
-    /* margin-right: 5px; */
-}
-
-.btn_primary img {
     margin-right: 5px;
 }
 
@@ -192,6 +188,10 @@ aside li {
     font-size: 14px;
 }
 
+.padding-laterales {
+    padding: 0 16px !important;
+}
+
 /* db icon */
 .bg-database {
     background-color: var(--bg-gray);
@@ -201,6 +201,7 @@ aside li {
     border-radius: 4px;
     width: 30px;
     height: 30px;
+    margin-left: 16px;
 }
 
 /* db icon */
@@ -212,14 +213,21 @@ aside li {
     border-radius: 8px;
     height: 100%;
     padding: 12px;
+    margin-top: 11px;
     justify-content: space-between;
+    /* gap: 25px; */
+}
+
+.line-columns {
+    border-right: 1px solid #dcdcdc;
+    padding-right: 16px;
 }
 
 
-
-#column-content {
+.column-content {
     display: flex;
     flex-direction: column;
+    gap: 3px;
 }
 
 .column-tittle {
@@ -227,10 +235,20 @@ aside li {
     justify-content: flex-start;
     align-items: center;
     padding: 0 12px;
+    margin-bottom: 12px;
     gap: 10px;
 }
 
-.column-filter {}
+.column-tittle span {
+    width: 100%;
+    font-weight: 700;
+}
+
+.column-filter {
+    background-color: #F8F8F8;
+    padding: 5px;
+    border-radius: 4px;
+}
 
 .container-card {
     display: flex;
@@ -241,6 +259,7 @@ aside li {
     Height: 52px;
     border-radius: 10px;
     align-items: center;
+    background-color: #FAFAFA;
 }
 
 .user-content {
@@ -279,6 +298,9 @@ aside li {
     background-color: var(--bg-gray);
     border-radius: 4px;
     width: 130px;
+    color: #ffffff;
+    font-size: 11px;
+    line-height: 14px;
 }
 
 .date {
@@ -289,7 +311,7 @@ aside li {
 /* recruiting table */
 #cont_prueba {
     background: #F3F3F3;
-    padding: 20px;
+    padding: 20px 4px;
     border-radius: 10px;
 }
 
