@@ -47,9 +47,8 @@ header nav ul li {
 
 #tit_principal {
     display: flex;
-    padding: 14px 0 5px 0;
+    padding: 14px 0 5px 20px;
 }
-
 
 #cont_tit_princ {
     margin-bottom: 10px;
@@ -73,11 +72,17 @@ h1 {
     font-size: 32px;
 }
 
+main {
+    width: 100%;
+    display: flex;
+    padding: 0 23px;
+}
+
 #container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
-    gap: 40px;
+    /* gap: 40px; */
 }
 
 aside {
@@ -86,6 +91,7 @@ aside {
     font-size: 14px;
     line-height: 17px;
     padding-top: 114px;
+    width: 10%;
 }
 
 aside ul {
@@ -107,7 +113,7 @@ aside li {
 }
 
 #principal {
-    width: 85%;
+    width: 90%;
 }
 
 #cont_prueba {
@@ -158,10 +164,6 @@ aside li {
 }
 
 .btn_primary img {
-    /* margin-right: 5px; */
-}
-
-.btn_primary img {
     margin-right: 5px;
 }
 
@@ -186,15 +188,20 @@ aside li {
     font-size: 14px;
 }
 
+.padding-laterales {
+    padding: 0 16px !important;
+}
+
 /* db icon */
 .bg-database {
     background-color: var(--bg-gray);
     display: flex;
     align-items: center;
-    width: fit-content;
     padding: 8px;
     border-radius: 4px;
-    margin: 17px;
+    width: 30px;
+    height: 30px;
+    margin-left: 16px;
 }
 
 /* db icon */
@@ -206,12 +213,18 @@ aside li {
     border-radius: 8px;
     height: 100%;
     padding: 12px;
+    margin-top: 11px;
     justify-content: space-between;
+    /* gap: 25px; */
+}
+
+.line-columns {
+    border-right: 1px solid #dcdcdc;
+    padding-right: 16px;
 }
 
 
-
-#column-content {
+.column-content {
     display: flex;
     flex-direction: column;
     gap: 3px;
@@ -224,6 +237,17 @@ aside li {
     padding: 0 12px;
     margin-bottom: 12px;
     gap: 10px;
+}
+
+.column-tittle span {
+    width: 100%;
+    font-weight: 700;
+}
+
+.column-filter {
+    background-color: #F8F8F8;
+    padding: 5px;
+    border-radius: 4px;
 }
 
 .container-card {
@@ -287,7 +311,7 @@ aside li {
 /* recruiting table */
 #cont_prueba {
     background: #F3F3F3;
-    padding: 20px;
+    padding: 20px 4px;
     border-radius: 10px;
 }
 
